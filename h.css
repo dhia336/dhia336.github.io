@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(0, 0, 0, 0.589);
+}
+h1{color: white;border: solid 2px red;border-radius: 2px; margin: 5px;padding: 10px;background-color: rgba(255, 0, 0, 0.685);
+animation-iteration-count: infinite;animation-name: onwen;animation-duration: 2s;animation-timing-function: ease-in-out;}
+@keyframes onwen {
+    0%{background-color:rgba(255, 0, 0, 0.685);}
+    50%{background-color:rgba(255, 0, 0, 0);}
+    100%{background-color:rgba(255, 0, 0, 0.685);}
+}
+#lkol{
+    background-color: rgba(65, 105, 225, 0.685);color: blanchedalmond;
+}
+#all{
+    background-color: sandybrown;border-radius: 15px;border: solid 2px black;
+}
+input[type=button]{
+    box-shadow: 3px 5px 7px black;
+}
+input[type=button]:hover{
+    background-color: black;color: white;
+}
+#div2{
+    border: dashed 3px black;border-radius: 15px;padding: 15px;margin: 10px;
+}
